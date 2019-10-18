@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>blogpost.html Single Post</h1>
+
+    <a href="./blogpost?id={{blogpost.id}}"> {{blogpost.title}} </a> 
+    <h3>{{blogpost.title}}</h3>
+    <p>{{blogpost.body}}</p>
+    
+
+{% endblock %}
